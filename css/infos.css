@@ -1,0 +1,103 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    right: 0px;
+}
+
+header{
+    background-color: black;
+    height: 80px;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+.nav{
+    font-family: Creafter Dreams N;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 32px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.logoimg{
+    width: 200px;
+    float: left;
+}
+
+
+ h2{
+    color: white;
+    font-family: Creafter Dreams N;
+    letter-spacing: 3px;
+    text-align: center;
+ }
+
+ p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+ }
+
+ .principal{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudolaterale, .conteudocentral, .conteudolaterald{
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 30px;
+} 
+
+h1{
+    font-family: Pasajero;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 10px;
+}
+
+.conteudocentral{
+    position: absolute;
+    top: 40%;
+    right: 41.8%;
+}
+
+.conteudolaterale{
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+
+.conteudolaterald{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.603);
+    right:15%;
+    top: 40%;
+
+}
+
+@font-face {
+    font-family: Pasajero;
+    src: url(../fonte/Pasajero.otf);
+ }
+
+ @font-face {
+    font-family: Creafter Dreams;
+    src: url(../fonte/CODE\ Light.otf);
+ }
+
+ @font-face {
+    font-family: Creafter Dreams N;
+    src: url(../fonte/CODE\ Bold.otf);
+ }
+
+

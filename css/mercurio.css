@@ -1,0 +1,94 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    right: 0px;
+}
+
+header{
+    background-color: black;
+    height: 80px;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+.nav{
+    font-family: Creafter Dreams N;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 32px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.logoimg{
+    width: 200px;
+    float: left;
+}
+
+.merc{
+    position: absolute;
+    right: 0%;
+    top: 14%;
+    width: 41vw;
+    position: fixed;
+}
+
+.iluz{
+    width: 200px;
+    position: absolute;
+    right: 1090px;
+    top: 45px;
+}
+
+ h1{
+    font-family:  Sanset;
+    color: white;
+    font-size: 5vw;
+    position: absolute;
+    right: 48%;
+    top: 13%;
+    letter-spacing: 15px;
+ }
+ 
+ h2{
+    font-family:  Sanset;
+    color: white;
+    font-size: 1.5vw;
+    position: absolute;
+    right: 51%;
+    top: 48%;
+    letter-spacing: 15px;
+ }
+
+ h3{
+    color: white;
+    font-family: Creafter Dreams;
+    letter-spacing: 7px;
+    font-size: 0.8vw;
+    position: absolute;
+    right: 46%;
+    top: 60%;
+    line-height: 20px;
+    text-align: center;
+}
+
+ @font-face {
+    font-family: Creafter Dreams;
+    src: url(../fonte/CODE\ Light.otf);
+ }
+
+ @font-face {
+     font-family: Sanset;
+     src: url(../fonte/Pasajero.otf);
+  }
+
+@font-face {
+    font-family: Creafter Dreams N;
+    src: url(../fonte/CODE\ Bold.otf);
+ }
+ 
